@@ -71,7 +71,10 @@ namespace GoogleARCore.Examples.AugmentedImage
                 return;
             }
 
+            //
             float halfWidth = Image.ExtentX / 2;
+
+            //
             float halfHeight = Image.ExtentZ / 2;
             FrameLowerLeft.transform.localPosition =
                 (halfWidth * Vector3.left) + (halfHeight * Vector3.back);
