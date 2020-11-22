@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class ReturnButton : MonoBehaviour
 {
+    AppController app;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        app = AppController.instance;
     }
 
     // Update is called once per frame
@@ -19,6 +21,7 @@ public class ReturnButton : MonoBehaviour
 
     public void Return()
     {
-        SceneManager.LoadScene("Start");
+        app.timers[app.timers.Count - 1].PutTime();
+        SceneManager.LoadScene("Survey");
     }
 }

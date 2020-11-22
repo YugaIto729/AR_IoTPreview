@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: da46d02d9d7a6434a91c5db35b4e644f
   - enabled: 1
+    path: Assets/Scenes/Survey.unity
+    guid: ed23233c1cce66f4eb700dcd9a136593
+  - enabled: 1
     path: Assets/GoogleARCore/Examples/AugmentedImage/Scenes/AugmentedImage.unity
     guid: be567d47d3ab94b3badc5b211f535a24
   - enabled: 0
