@@ -15,7 +15,7 @@ public class SurveyController : MonoBehaviour
     void Start()
     {
         app = AppController.instance;
-        app.timers.Add(new SurveyTimer());
+        
         
     }
 
@@ -25,16 +25,22 @@ public class SurveyController : MonoBehaviour
         timeText.text = app.timers[0].GetRunTime().ToString();
     }
 
-    public void HintBotton()
+    public void HintBotton(int level)
     {
-        AppController.instance.timers.Add(new SurveyTimer());
+        var ap = AppController.instance;
 
+        Debug.Log(level);
+        ap.Set_Level(level);
+
+        ap.timers.Add(new SurveyTimer(ap.mode.ToString() + "_" + level.ToString(), ap.timers[0].GetRunTime()));
+
+        //AppController.instance.timers[app.timers.Count - 1].PutTime();
         SceneManager.LoadScene("Main");
     }
 
     public void ExitBotton()
     {
-        app.timers[0].PutTime();
+        AppController.instance.timers[0].PutTime();
         AppController.instance.Save_CSV();
         SceneManager.LoadScene("Start");
     }

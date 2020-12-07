@@ -3,10 +3,10 @@ sceneSetups:
   isLoaded: 1
   isActive: 1
 - path: Assets/Scenes/Main.unity
-  isLoaded: 0
+  isLoaded: 1
   isActive: 0
 - path: Assets/Scenes/Survey.unity
-  isLoaded: 0
+  isLoaded: 1
   isActive: 0
 - path: Assets/GoogleARCore/Examples/AugmentedImage/Scenes/AugmentedImage.unity
   isLoaded: 1

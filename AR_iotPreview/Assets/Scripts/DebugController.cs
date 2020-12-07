@@ -34,6 +34,7 @@ public class DebugController : MonoBehaviour
 
     public void Debug_Log(string s)
     {
+        Debug.Log(s);
         buffText += s + "\n";
     }
 

@@ -13,9 +13,9 @@ public class StartController : MonoBehaviour
     IEnumerator Start()
     {
         yield return new WaitForSeconds(5);
-        DebugController.inst.Debug_Log("【CSV保存】");
-        AppController.instance.Save_CSV(new float[]{ 1,2,3,4,5});
-        DebugController.inst.Debug_Log("【CSV保存後】");
+        //DebugController.inst.Debug_Log("【CSV保存】");
+        //AppController.instance.Save_CSV("Test");
+        //DebugController.inst.Debug_Log("【CSV保存後】");
     }
 
 
@@ -27,12 +27,16 @@ public class StartController : MonoBehaviour
 
     public void Click_A()
     {
+        AppController.instance.timers.Clear();
+        AppController.instance.timers.Add(new SurveyTimer("BaseTimer", 0));
         AppController.instance.mode = AppController.Mode.Amateur;
         LoadScene("Survey");
     }
 
     public void Click_E()
     {
+        AppController.instance.timers.Clear();
+        AppController.instance.timers.Add(new SurveyTimer("BaseTimer", 0));
         AppController.instance.mode = AppController.Mode.Expert;
         LoadScene("Survey");
         //LoadScene("AugmentedImage");

@@ -17,9 +17,23 @@ public class AppController : MonoBehaviour
     }
 
     public Mode mode;
-    public GameObject[] models_amateur;
-    public GameObject[] models_Expert;
+    public int level = 0;
+    [SerializeField]
+    private GameObject[] _models_amateur;
+    [SerializeField]
+    private GameObject[] _models_Expert;
     private string Directory_path = "iotPre";
+    private string userName="";
+
+    public GameObject Models_amateur()
+    {
+        return _models_amateur[level];
+    }
+
+    public GameObject Models_Expert()
+    {
+        return _models_Expert[level];
+    }
 
     private void Awake()
     {
@@ -37,6 +51,36 @@ public class AppController : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Set_Level(int level)
+    {
+        if (mode == Mode.Amateur)
+        {
+            if (_models_amateur.Length > level)
+            {
+                this.level = level;
+            }
+        }
+        else if (mode == Mode.Expert)
+        {
+            if (_models_Expert.Length > level)
+            {
+                this.level = level;
+            }
+        }
+    }
+
+    public string[] Get_CSVname()
+    {
+        List<string> list = new List<string>();
+
+        foreach (var t in timers)
+        {
+            list.Add(t.name);
+        }
+
+        return list.ToArray();
     }
 
     public float[] Get_CSVdata()
@@ -61,17 +105,27 @@ public class AppController : MonoBehaviour
         return Directory.CreateDirectory(path);
     }
 
-    public void Save_CSV(float[] datas)
+    public void Save_CSV(string name )
     {
+        var names = Get_CSVname();
+        var datas = Get_CSVdata();
+
         var dc = DebugController.inst;
         dc.Debug_Log(string.Format("ファイルパス: {0}", Application.persistentDataPath));
 
         SafeCreateDirectory(Application.persistentDataPath + "/" + Directory_path);
         dc.Debug_Log("ディレクトリをチェック");
 
-        sw = new StreamWriter(Application.persistentDataPath + "/" + Directory_path+"/SaveData.csv", true, Encoding.UTF8);
+        sw = new StreamWriter(Application.persistentDataPath + "/" + Directory_path+"/"+userName+"_Data.csv", true, Encoding.UTF8);
         dc.Debug_Log("ファイルオープン");
-        string s = string.Join(",", datas);
+
+        string s = "";
+        for (int i = 0; i < timers.Count; i++)
+        {
+            string s1 = timers[i].name + "," + timers[i].GetTime().ToString() + "," + timers[i].timeLine + "\n";
+
+            s += s1;
+        }
 
         sw.WriteLine(s);
         dc.Debug_Log("ファイル書き込み");
@@ -82,23 +136,27 @@ public class AppController : MonoBehaviour
 
     public void Save_CSV()
     {
-        Save_CSV(Get_CSVdata());
+        Save_CSV(userName);
     }
 }
 
 public sealed class SurveyTimer
 {
+    public string name;
+    public float timeLine = 0;
     public float startTime = -1;
     public float stopTime = 0; 
 
-    public SurveyTimer()
+    public SurveyTimer(string name, float startTime)
     {
-        StartTimer();
+        StartTimer(name, startTime);
     }
 
-    public void StartTimer()
+    public void StartTimer(string name, float startTime)
     {
-        startTime = Time.time;
+        timeLine = startTime;
+        this.name = name;
+        this.startTime = Time.time;
     }
     
     public void PutTime()

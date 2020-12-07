@@ -73,11 +73,11 @@ namespace GoogleARCore.Examples.AugmentedImage
         {
             if (AppController.instance.mode == AppController.Mode.Amateur)
             {
-                AIV_Prefab = AppController.instance.models_amateur[0].GetComponent<AugmentedImageVisualizer_Model>();
+                AIV_Prefab = AppController.instance.Models_amateur().GetComponent<AugmentedImageVisualizer_Model>();
             }
             else if (AppController.instance.mode == AppController.Mode.Expert)
             {
-                AIV_Prefab = AppController.instance.models_Expert[0].GetComponent<AugmentedImageVisualizer_Model>();
+                AIV_Prefab = AppController.instance.Models_Expert().GetComponent<AugmentedImageVisualizer_Model>();
             }
 
 

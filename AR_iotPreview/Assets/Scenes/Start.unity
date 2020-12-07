@@ -1309,10 +1309,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: 0
-  models_amateur:
-  - {fileID: 768096210746469666, guid: 0f5d9e3415e0a134eaa4faafede41f35, type: 3}
-  models_Expert:
+  level: 0
+  _models_amateur:
   - {fileID: 3919597222395419218, guid: 0e3fb25ce99547e48bb89ded73c7d585, type: 3}
+  - {fileID: 6470112922570239919, guid: 984afcd9a7111b04dbf799cee5eddb61, type: 3}
+  - {fileID: 5991289462228717689, guid: 0a94824f6f3454643b7fe4eef440a8c1, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _models_Expert:
+  - {fileID: 8499800673192172260, guid: a5244185fdfaf0f488ee9f5f022c35ee, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &930296615
 Transform:
   m_ObjectHideFlags: 0
