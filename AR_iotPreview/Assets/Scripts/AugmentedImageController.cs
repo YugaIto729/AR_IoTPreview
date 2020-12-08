@@ -57,6 +57,9 @@ namespace GoogleARCore.Examples.AugmentedImage
 
         private List<AugmentedImage> _tempAugmentedImages = new List<AugmentedImage>();
 
+        private AppController.Mode mode;
+        private int level;
+
         /// <summary>
         /// The Unity Awake() method.
         /// </summary>
@@ -71,6 +74,11 @@ namespace GoogleARCore.Examples.AugmentedImage
 
         public void Start()
         {
+            UpdateModel();
+        }
+
+        private void UpdateModel()
+        {
             if (AppController.instance.mode == AppController.Mode.Amateur)
             {
                 AIV_Prefab = AppController.instance.Models_amateur().GetComponent<AugmentedImageVisualizer_Model>();
@@ -79,8 +87,6 @@ namespace GoogleARCore.Examples.AugmentedImage
             {
                 AIV_Prefab = AppController.instance.Models_Expert().GetComponent<AugmentedImageVisualizer_Model>();
             }
-
-
         }
 
         /// <summary>
@@ -88,6 +94,17 @@ namespace GoogleARCore.Examples.AugmentedImage
         /// </summary>
         public void Update()
         {
+            if (level != AppController.instance.level)
+            {
+                UpdateModel();
+            }
+
+            if (mode != AppController.instance.mode)
+            {
+                UpdateModel();
+            }
+
+
             // Exit the app when the 'back' button is pressed.
             if (Input.GetKey(KeyCode.Escape))
             {
@@ -137,6 +154,23 @@ namespace GoogleARCore.Examples.AugmentedImage
 
                     _visualizers.Add(image.DatabaseIndex, visualizer); //辞書に追加
                 }
+                /*
+                else if (image.TrackingState == TrackingState.Tracking && (level != AppController.instance.level || mode != AppController.instance.mode))
+                {
+                    // Create an anchor to ensure that ARCore keeps tracking this augmented image.
+                    Anchor anchor = image.CreateAnchor(image.CenterPose); //重り…？位置か？
+
+
+                    //AugmentedImageVisualizerのオブジェクトを生成する。
+                    visualizer = (AugmentedImageVisualizer_Model)Instantiate(AIV_Prefab, anchor.transform);
+                    //
+                    visualizer.Image = image;
+
+                    //ここでフレームを置いてるのかも
+
+                    _visualizers.Add(image.DatabaseIndex, visualizer); //辞書に追加
+                }
+                */
                 else if (image.TrackingState == TrackingState.Stopped && visualizer != null)
                 {
                     _visualizers.Remove(image.DatabaseIndex);
@@ -156,6 +190,9 @@ namespace GoogleARCore.Examples.AugmentedImage
             }
 
             FitToScanOverlay.SetActive(true);
+
+            level = AppController.instance.level;
+            mode = AppController.instance.mode;
         }
     }
 }
