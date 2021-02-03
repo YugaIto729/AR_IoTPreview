@@ -134,6 +134,12 @@ public class AppController : MonoBehaviour
         dc.Debug_Log("ファイルクローズ");
     }
 
+    public void Input_Name(string s)
+    {
+        Debug.Log("名前セット");
+        userName = s;
+    }
+
     public void Save_CSV()
     {
         Save_CSV(userName);

@@ -25,6 +25,7 @@ namespace GoogleARCore.Examples.AugmentedImage
     using GoogleARCore;
     using UnityEngine;
     using UnityEngine.UI;
+    using UnityEngine.SceneManagement;
 
     /// <summary>
     /// Controller for AugmentedImage example.
@@ -59,6 +60,9 @@ namespace GoogleARCore.Examples.AugmentedImage
 
         private AppController.Mode mode;
         private int level;
+        public SurveyTimer cullentTimer;
+        public SurveyTimer trackingTimer;
+
 
         /// <summary>
         /// The Unity Awake() method.
@@ -74,6 +78,13 @@ namespace GoogleARCore.Examples.AugmentedImage
 
         public void Start()
         {
+            var ap = AppController.instance;
+            level = ap.level;
+
+            var timer = new SurveyTimer(ap.mode.ToString() + "_" + level.ToString(), ap.timers[0].GetRunTime());
+            cullentTimer = timer;
+            Debug.Log(level);
+            ap.timers.Add(timer);
             UpdateModel();
         }
 
@@ -87,6 +98,20 @@ namespace GoogleARCore.Examples.AugmentedImage
             {
                 AIV_Prefab = AppController.instance.Models_Expert().GetComponent<AugmentedImageVisualizer_Model>();
             }
+        }
+
+        public void Return()
+        {
+            //var ap = AppController.instance;
+
+            cullentTimer.PutTime();
+            if (trackingTimer != null)
+            {
+                trackingTimer.PutTime();
+            }
+
+
+            SceneManager.LoadScene("Survey");
         }
 
         /// <summary>
@@ -135,12 +160,18 @@ namespace GoogleARCore.Examples.AugmentedImage
             {
                 AugmentedImageVisualizer_Model visualizer = null;
 
-                //取得している画像がキーになっているvisualizerを取得
+                //取得している画像がキーになっているvisualizerを取得(空間に設置したモデルの辞書)
                 _visualizers.TryGetValue(image.DatabaseIndex, out visualizer);
+
+                //DebugController.inst.Debug_Log(image.TrackingState.ToString() + "  " + image.TrackingMethod);
+                if (visualizer != null)
+                DebugController.inst.Debug_Log(visualizer.gameObject.name.ToString());
+
 
                 //トラッキングされている場合(画面に映ってる) ＆ 辞書に登録されていない。
                 if (image.TrackingState == TrackingState.Tracking && visualizer == null)
                 {
+
                     // Create an anchor to ensure that ARCore keeps tracking this augmented image.
                     Anchor anchor = image.CreateAnchor(image.CenterPose); //重り…？位置か？
 
@@ -154,36 +185,56 @@ namespace GoogleARCore.Examples.AugmentedImage
 
                     _visualizers.Add(image.DatabaseIndex, visualizer); //辞書に追加
                 }
-                /*
-                else if (image.TrackingState == TrackingState.Tracking && (level != AppController.instance.level || mode != AppController.instance.mode))
-                {
-                    // Create an anchor to ensure that ARCore keeps tracking this augmented image.
-                    Anchor anchor = image.CreateAnchor(image.CenterPose); //重り…？位置か？
-
-
-                    //AugmentedImageVisualizerのオブジェクトを生成する。
-                    visualizer = (AugmentedImageVisualizer_Model)Instantiate(AIV_Prefab, anchor.transform);
-                    //
-                    visualizer.Image = image;
-
-                    //ここでフレームを置いてるのかも
-
-                    _visualizers.Add(image.DatabaseIndex, visualizer); //辞書に追加
-                }
-                */
                 else if (image.TrackingState == TrackingState.Stopped && visualizer != null)
                 {
                     _visualizers.Remove(image.DatabaseIndex);
                     GameObject.Destroy(visualizer.gameObject);
+                    continue;
+                }
+
+                if (image.TrackingMethod != AugmentedImageTrackingMethod.FullTracking)
+                {
+                    //visualizer.gameObject.SetActive(false);
+                    trackTimer_Out();
+
+                    //_visualizers.Remove(image.DatabaseIndex);
+                    //GameObject.Destroy(visualizer.gameObject);
+                    //continue;
+                }
+                else
+                {
+                    //visualizer.gameObject.SetActive(true);
+
+                    if (trackingTimer == null)
+                    {
+                        var ap = AppController.instance;
+                        var timer = new SurveyTimer(ap.mode.ToString() + "_" + level.ToString() + "_tracked", ap.timers[0].GetRunTime());
+                        trackingTimer = timer;
+
+                        ap.timers.Add(timer);
+                    }
                 }
             }
+
+            level = AppController.instance.level;
+            mode = AppController.instance.mode;
 
             // ひとつでもトラッキングされているならUIを出す。
             // Show the fit-to-scan overlay if there are no images that are Tracking.
             foreach (var visualizer in _visualizers.Values)
             {
+                if (visualizer.Image.TrackingMethod != AugmentedImageTrackingMethod.FullTracking)
+                {
+                    visualizer.gameObject.SetActive(false);
+                }
+                else
+                {
+                    visualizer.gameObject.SetActive(true);
+                }
+
                 if (visualizer.Image.TrackingState == TrackingState.Tracking)
                 {
+                    visualizer.gameObject.SetActive(true);
                     FitToScanOverlay.SetActive(false);
                     return;
                 }
@@ -191,8 +242,17 @@ namespace GoogleARCore.Examples.AugmentedImage
 
             FitToScanOverlay.SetActive(true);
 
-            level = AppController.instance.level;
-            mode = AppController.instance.mode;
+            trackTimer_Out();
+        }
+
+
+        private void trackTimer_Out()
+        {
+            if (trackingTimer != null)
+            {
+                trackingTimer.PutTime();
+                trackingTimer = null;
+            }
         }
     }
 }

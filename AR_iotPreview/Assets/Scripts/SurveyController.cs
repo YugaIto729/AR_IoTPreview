@@ -32,7 +32,7 @@ public class SurveyController : MonoBehaviour
         Debug.Log(level);
         ap.Set_Level(level);
 
-        ap.timers.Add(new SurveyTimer(ap.mode.ToString() + "_" + level.ToString(), ap.timers[0].GetRunTime()));
+        //ap.timers.Add(new SurveyTimer(ap.mode.ToString() + "_" + level.ToString(), ap.timers[0].GetRunTime()));
 
         //AppController.instance.timers[app.timers.Count - 1].PutTime();
         SceneManager.LoadScene("Main");

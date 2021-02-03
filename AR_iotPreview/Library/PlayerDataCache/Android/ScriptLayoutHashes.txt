@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/yuga/Documents/Github/AR_IoTPreview/AR_iotPreview/BuildData/helloAR7.apk
+C:/Users/yuga/Documents/Github/AR_IoTPreview/AR_iotPreview/BuildData/helloAR8.apk
 SceneListBegin?
 Assets/Scenes/Start.unity
 Assets/Scenes/Main.unity
@@ -96,6 +96,7 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 3472514269703054ccba0d353a4f8311 Assembly-CSharp.dll:GoogleARCore.Examples.HelloAR.HelloARController
+c747681b92b657d50553d1cc7f34bb32 Assembly-CSharp.dll:.SortingLayer
 22a3e1704c3ed494db46fb0425906477 Assembly-CSharp.dll:GoogleARCore.Examples.Common.InstantPlacementEffect
 1e9c409e29cdc019c5521daf5eb17010 Assembly-CSharp.dll:GoogleARCore.Examples.ComputerVision.TextureReader
 ced7b39b5567f2b7e906457f9d7ce6e7 Assembly-CSharp.dll:GoogleARCore.Examples.PersistentCloudAnchors.CircleRenderer
@@ -116,6 +117,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.P
 68d775dd0f68b5f35ae7628f28ed616e Assembly-CSharp.dll:GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager
 bc36cfe008859a4f07b3da2ff0b5e005 Assembly-CSharp.dll:GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController
 00274a21279f5cb831ce20f895049e38 Unity.TextMeshPro.dll:TMPro.TMP_SubMeshUI
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Face_Control
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 1dcb82730d983b77cec736c6ef19f814 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -221,5 +223,3 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 a6be390312032ba0856f81fc3c448644 Assembly-CSharp.dll:GoogleARCore.Examples.ObjectManipulation.SelectionManipulator
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 21e871d89bbce53c038fc75ad1b7c7f3 Assembly-CSharp.dll:GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager
-c747681b92b657d50553d1cc7f34bb32 Assembly-CSharp.dll:.SortingLayer
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Face_Control

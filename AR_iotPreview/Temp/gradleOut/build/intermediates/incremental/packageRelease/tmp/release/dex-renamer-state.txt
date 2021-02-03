@@ -1,0 +1,4 @@
+#Thu Dec 17 22:55:11 JST 2020
+base.0=C\:\\Users\\yuga\\Documents\\Github\\AR_IoTPreview\\AR_iotPreview\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
