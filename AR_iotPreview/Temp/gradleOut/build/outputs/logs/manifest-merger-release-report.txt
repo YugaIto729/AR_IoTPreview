@@ -1,0 +1,310 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\306a2ed4c05d0164f5bb97ec28b56ffb\AndroidManifest.xml:17:1-30:12
+MERGED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:17:1-46:12
+MERGED from [:arcore_rendering_utils:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_rendering_utils.aar\26891697e949f0fbf4aea72d290b51d4\AndroidManifest.xml:2:1-11:12
+MERGED from [:arcore_unity:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_unity.aar\e0fbebd6ce6810ad8e9ebf1cac1ab0fe\AndroidManifest.xml:2:1-11:12
+MERGED from [:com.android.support.support-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\8a7017b09f319feca1b7e2a355897663\AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\5c6191c3f400bccdc9b32c3373bf77c8\AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\3466ed4e88a56be40edfaadeccb12aa4\AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\e81ac24388e34bb210addebd1796203a\AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\58fa2b3ad6e2048665c524f329ac3c46\AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\12d0f7e9d0a257fc8457e979f0ee2518\AndroidManifest.xml:17:1-31:12
+MERGED from [:com.google.android.gms.play-services-auth-base-16.0.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-auth-base-16.0.0.aar\916c7b5f5dd7ff1e2c79d1b81d9e5713\AndroidManifest.xml:2:1-7:12
+MERGED from [:com.google.android.gms.play-services-base-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-16.0.1.aar\ea59ac32ca4ddd9fdee199c2fcd2f6f2\AndroidManifest.xml:17:1-29:12
+MERGED from [:com.google.android.gms.play-services-basement-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-16.0.1.aar\98816d9cadc7a9696743d6a1eed0df4e\AndroidManifest.xml:17:1-28:12
+MERGED from [:com.google.android.gms.play-services-tasks-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-16.0.1.aar\e40f7408f51b2a4b6b97d5c8c302105e\AndroidManifest.xml:2:1-9:12
+MERGED from [:customized_manifest:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\customized_manifest.aar\ea49638121f60b3a7f6895228ce6afe2\AndroidManifest.xml:2:1-4:12
+MERGED from [:google_ar_required:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\google_ar_required.aar\5b45754de6738591b908d13d31277b7b\AndroidManifest.xml:2:1-19:12
+MERGED from [:keyless_authentication:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\keyless_authentication.aar\08591704e7cb6fb631767196bf95bd4f\AndroidManifest.xml:2:1-9:12
+MERGED from [:unityandroidpermissions:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\unityandroidpermissions.aar\24efd315468b31934379d246c1e9bf76\AndroidManifest.xml:6:1-15:12
+MERGED from [:unitygar:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\unitygar.aar\50d024eac2bfa3a6614e6b3a9df14a43\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:2:70-101
+		INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:2:102-148
+	android:versionCode
+		INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:2:149-189
+supports-screens
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:3:135-160
+application
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:4:3-18:17
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\306a2ed4c05d0164f5bb97ec28b56ffb\AndroidManifest.xml:24:5-28:19
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\306a2ed4c05d0164f5bb97ec28b56ffb\AndroidManifest.xml:24:5-28:19
+MERGED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:30:5-44:19
+MERGED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:30:5-44:19
+MERGED from [:com.android.support.support-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\8a7017b09f319feca1b7e2a355897663\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\8a7017b09f319feca1b7e2a355897663\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\5c6191c3f400bccdc9b32c3373bf77c8\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\5c6191c3f400bccdc9b32c3373bf77c8\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\3466ed4e88a56be40edfaadeccb12aa4\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\3466ed4e88a56be40edfaadeccb12aa4\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\e81ac24388e34bb210addebd1796203a\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\e81ac24388e34bb210addebd1796203a\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\58fa2b3ad6e2048665c524f329ac3c46\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\58fa2b3ad6e2048665c524f329ac3c46\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\12d0f7e9d0a257fc8457e979f0ee2518\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\12d0f7e9d0a257fc8457e979f0ee2518\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.google.android.gms.play-services-base-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-16.0.1.aar\ea59ac32ca4ddd9fdee199c2fcd2f6f2\AndroidManifest.xml:22:5-27:19
+MERGED from [:com.google.android.gms.play-services-base-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-16.0.1.aar\ea59ac32ca4ddd9fdee199c2fcd2f6f2\AndroidManifest.xml:22:5-27:19
+MERGED from [:com.google.android.gms.play-services-basement-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-16.0.1.aar\98816d9cadc7a9696743d6a1eed0df4e\AndroidManifest.xml:22:5-26:19
+MERGED from [:com.google.android.gms.play-services-basement-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-16.0.1.aar\98816d9cadc7a9696743d6a1eed0df4e\AndroidManifest.xml:22:5-26:19
+MERGED from [:com.google.android.gms.play-services-tasks-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-16.0.1.aar\e40f7408f51b2a4b6b97d5c8c302105e\AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-tasks-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-16.0.1.aar\e40f7408f51b2a4b6b97d5c8c302105e\AndroidManifest.xml:7:5-20
+MERGED from [:google_ar_required:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\google_ar_required.aar\5b45754de6738591b908d13d31277b7b\AndroidManifest.xml:13:5-17:19
+MERGED from [:google_ar_required:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\google_ar_required.aar\5b45754de6738591b908d13d31277b7b\AndroidManifest.xml:13:5-17:19
+	android:label
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:4:90-122
+	android:icon
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:4:58-89
+	android:banner
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:4:145-182
+	android:theme
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:4:16-57
+	android:isGame
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:4:123-144
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:5:5-12:16
+	android:screenOrientation
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:5:102-140
+	android:label
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:5:69-101
+	android:launchMode
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:5:141-172
+	android:hardwareAccelerated
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:5:355-390
+	android:configChanges
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:5:173-354
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:5:15-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:6:7-10:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:7:9-61
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:7:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:8:9-69
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:8:19-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:9:9-78
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:9:19-75
+meta-data#unityplayer.UnityActivity
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:11:7-82
+	android:value
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:11:59-79
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:11:18-58
+meta-data#unity.tango-enable
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:13:5-73
+	android:value
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:13:50-70
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:13:16-49
+meta-data#unityplayer.SkipPermissionsDialog
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:14:5-88
+	android:value
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:14:65-85
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:14:16-64
+meta-data#unity.build-id
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:15:5-101
+	android:value
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:15:46-98
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:15:16-45
+meta-data#unity.splash-mode
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:16:5-69
+	android:value
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:16:49-66
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:16:16-48
+meta-data#unity.splash-enable
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:17:5-74
+	android:value
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:17:51-71
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:17:16-50
+uses-feature#0x00020000
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:19:3-52
+	android:glEsVersion
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:19:17-49
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:20:3-63
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:20:20-60
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:21:3-65
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:21:20-62
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:22:3-88
+	android:required
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:22:61-85
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:22:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:23:3-99
+	android:required
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:23:72-96
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:23:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:24:3-108
+	android:required
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:24:81-105
+	android:name
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml:24:17-80
+uses-sdk
+INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\306a2ed4c05d0164f5bb97ec28b56ffb\AndroidManifest.xml:20:5-22:41
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\306a2ed4c05d0164f5bb97ec28b56ffb\AndroidManifest.xml:20:5-22:41
+MERGED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:25:5-27:41
+MERGED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:25:5-27:41
+MERGED from [:arcore_rendering_utils:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_rendering_utils.aar\26891697e949f0fbf4aea72d290b51d4\AndroidManifest.xml:7:5-9:41
+MERGED from [:arcore_rendering_utils:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_rendering_utils.aar\26891697e949f0fbf4aea72d290b51d4\AndroidManifest.xml:7:5-9:41
+MERGED from [:arcore_unity:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_unity.aar\e0fbebd6ce6810ad8e9ebf1cac1ab0fe\AndroidManifest.xml:7:5-9:41
+MERGED from [:arcore_unity:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_unity.aar\e0fbebd6ce6810ad8e9ebf1cac1ab0fe\AndroidManifest.xml:7:5-9:41
+MERGED from [:com.android.support.support-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\8a7017b09f319feca1b7e2a355897663\AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\8a7017b09f319feca1b7e2a355897663\AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\5c6191c3f400bccdc9b32c3373bf77c8\AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\5c6191c3f400bccdc9b32c3373bf77c8\AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\3466ed4e88a56be40edfaadeccb12aa4\AndroidManifest.xml:21:5-23:61
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\3466ed4e88a56be40edfaadeccb12aa4\AndroidManifest.xml:21:5-23:61
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\e81ac24388e34bb210addebd1796203a\AndroidManifest.xml:21:5-23:60
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\e81ac24388e34bb210addebd1796203a\AndroidManifest.xml:21:5-23:60
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\58fa2b3ad6e2048665c524f329ac3c46\AndroidManifest.xml:21:5-23:63
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\58fa2b3ad6e2048665c524f329ac3c46\AndroidManifest.xml:21:5-23:63
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\12d0f7e9d0a257fc8457e979f0ee2518\AndroidManifest.xml:21:5-23:54
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\12d0f7e9d0a257fc8457e979f0ee2518\AndroidManifest.xml:21:5-23:54
+MERGED from [:com.google.android.gms.play-services-auth-base-16.0.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-auth-base-16.0.0.aar\916c7b5f5dd7ff1e2c79d1b81d9e5713\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-auth-base-16.0.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-auth-base-16.0.0.aar\916c7b5f5dd7ff1e2c79d1b81d9e5713\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-base-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-16.0.1.aar\ea59ac32ca4ddd9fdee199c2fcd2f6f2\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-base-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-16.0.1.aar\ea59ac32ca4ddd9fdee199c2fcd2f6f2\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-basement-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-16.0.1.aar\98816d9cadc7a9696743d6a1eed0df4e\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-basement-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-16.0.1.aar\98816d9cadc7a9696743d6a1eed0df4e\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-tasks-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-16.0.1.aar\e40f7408f51b2a4b6b97d5c8c302105e\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-tasks-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-16.0.1.aar\e40f7408f51b2a4b6b97d5c8c302105e\AndroidManifest.xml:5:5-44
+MERGED from [:customized_manifest:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\customized_manifest.aar\ea49638121f60b3a7f6895228ce6afe2\AndroidManifest.xml:3:3-42
+MERGED from [:customized_manifest:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\customized_manifest.aar\ea49638121f60b3a7f6895228ce6afe2\AndroidManifest.xml:3:3-42
+MERGED from [:google_ar_required:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\google_ar_required.aar\5b45754de6738591b908d13d31277b7b\AndroidManifest.xml:7:5-44
+MERGED from [:google_ar_required:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\google_ar_required.aar\5b45754de6738591b908d13d31277b7b\AndroidManifest.xml:7:5-44
+MERGED from [:keyless_authentication:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\keyless_authentication.aar\08591704e7cb6fb631767196bf95bd4f\AndroidManifest.xml:7:5-44
+MERGED from [:keyless_authentication:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\keyless_authentication.aar\08591704e7cb6fb631767196bf95bd4f\AndroidManifest.xml:7:5-44
+MERGED from [:unityandroidpermissions:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\unityandroidpermissions.aar\24efd315468b31934379d246c1e9bf76\AndroidManifest.xml:11:5-13:41
+MERGED from [:unityandroidpermissions:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\unityandroidpermissions.aar\24efd315468b31934379d246c1e9bf76\AndroidManifest.xml:11:5-13:41
+MERGED from [:unitygar:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\unitygar.aar\50d024eac2bfa3a6614e6b3a9df14a43\AndroidManifest.xml:7:5-9:41
+MERGED from [:unitygar:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\unitygar.aar\50d024eac2bfa3a6614e6b3a9df14a43\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:com.android.support.support-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\8a7017b09f319feca1b7e2a355897663\AndroidManifest.xml:23:9-55
+	android:targetSdkVersion
+		INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yuga\Documents\Github\AR_IoTPreview\AR_iotPreview\Temp\gradleOut\src\main\AndroidManifest.xml
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\306a2ed4c05d0164f5bb97ec28b56ffb\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\306a2ed4c05d0164f5bb97ec28b56ffb\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\306a2ed4c05d0164f5bb97ec28b56ffb\AndroidManifest.xml:26:13-58
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:33:9-35:41
+	android:value
+		ADDED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:35:13-38
+	android:name
+		ADDED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:34:13-62
+activity#com.google.ar.core.InstallActivity
+ADDED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:37:9-43:80
+	android:excludeFromRecents
+		ADDED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:40:13-46
+	android:launchMode
+		ADDED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:42:13-43
+	android:exported
+		ADDED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:41:13-37
+	android:configChanges
+		ADDED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:39:13-74
+	android:theme
+		ADDED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:43:13-77
+	android:name
+		ADDED from [:arcore_client:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\arcore_client.aar\440db46d03f79ba64951e835391224d8\AndroidManifest.xml:38:13-62
+meta-data#android.support.VERSION
+ADDED from [:com.android.support.support-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\8a7017b09f319feca1b7e2a355897663\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\5c6191c3f400bccdc9b32c3373bf77c8\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\5c6191c3f400bccdc9b32c3373bf77c8\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\3466ed4e88a56be40edfaadeccb12aa4\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\3466ed4e88a56be40edfaadeccb12aa4\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\e81ac24388e34bb210addebd1796203a\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\e81ac24388e34bb210addebd1796203a\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\58fa2b3ad6e2048665c524f329ac3c46\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\58fa2b3ad6e2048665c524f329ac3c46\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\12d0f7e9d0a257fc8457e979f0ee2518\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\12d0f7e9d0a257fc8457e979f0ee2518\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [:com.android.support.support-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\8a7017b09f319feca1b7e2a355897663\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [:com.android.support.support-compat-26.1.0:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\8a7017b09f319feca1b7e2a355897663\AndroidManifest.xml:27:13-51
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [:com.google.android.gms.play-services-base-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-16.0.1.aar\ea59ac32ca4ddd9fdee199c2fcd2f6f2\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [:com.google.android.gms.play-services-base-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-16.0.1.aar\ea59ac32ca4ddd9fdee199c2fcd2f6f2\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [:com.google.android.gms.play-services-base-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-16.0.1.aar\ea59ac32ca4ddd9fdee199c2fcd2f6f2\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [:com.google.android.gms.play-services-base-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-16.0.1.aar\ea59ac32ca4ddd9fdee199c2fcd2f6f2\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [:com.google.android.gms.play-services-basement-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-16.0.1.aar\98816d9cadc7a9696743d6a1eed0df4e\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [:com.google.android.gms.play-services-basement-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-16.0.1.aar\98816d9cadc7a9696743d6a1eed0df4e\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [:com.google.android.gms.play-services-basement-16.0.1:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-16.0.1.aar\98816d9cadc7a9696743d6a1eed0df4e\AndroidManifest.xml:24:13-58
+uses-feature#android.hardware.camera.ar
+ADDED from [:google_ar_required:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\google_ar_required.aar\5b45754de6738591b908d13d31277b7b\AndroidManifest.xml:9:5-11:35
+	android:required
+		ADDED from [:google_ar_required:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\google_ar_required.aar\5b45754de6738591b908d13d31277b7b\AndroidManifest.xml:11:9-32
+	android:name
+		ADDED from [:google_ar_required:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\google_ar_required.aar\5b45754de6738591b908d13d31277b7b\AndroidManifest.xml:10:9-50
+meta-data#com.google.ar.core
+ADDED from [:google_ar_required:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\google_ar_required.aar\5b45754de6738591b908d13d31277b7b\AndroidManifest.xml:14:9-16:40
+	android:value
+		ADDED from [:google_ar_required:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\google_ar_required.aar\5b45754de6738591b908d13d31277b7b\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [:google_ar_required:] C:\Users\yuga\.gradle\caches\transforms-1\files-1.1\google_ar_required.aar\5b45754de6738591b908d13d31277b7b\AndroidManifest.xml:15:13-46
